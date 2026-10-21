@@ -1,0 +1,53 @@
+{
+  "expo": {
+    "name": "Mama Mboga",
+    "slug": "mama-mboga",
+    "scheme": "mamamboga",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "ke.mamamboga.app"
+    },
+    "android": {
+      "package": "ke.mamamboga.app",
+      "softwareKeyboardLayoutMode": "pan",
+      "predictiveBackGestureEnabled": false,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#14532D"
+      },
+      "versionCode": 1
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "single"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "Mama Mboga uses your photos so you can add pictures of your produce and your shop.",
+          "cameraPermission": "Mama Mboga uses the camera so you can photograph your produce.",
+          "microphonePermission": false
+        }
+      ],
+      "expo-image",
+      "expo-font",
+      [
+        "expo-splash-screen",
+        {
+          "backgroundColor": "#14532D",
+          "image": "./assets/adaptive-icon.png",
+          "imageWidth": 180
+        }
+      ]
+    ],
+    "extra": {
+      "router": {}
+    },
+    "icon": "./assets/icon.png"
+  }
+}

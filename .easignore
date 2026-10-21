@@ -1,0 +1,14 @@
+node_modules/
+.expo/
+dist/
+web-build/
+report/
+supabase/
+.env
+*.docx
+*.pdf
+*.jks
+*.p8
+*.p12
+*.key
+.DS_Store
